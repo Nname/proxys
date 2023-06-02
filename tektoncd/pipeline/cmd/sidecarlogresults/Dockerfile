@@ -1,0 +1,1 @@
+FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/sidecarlogresults:v0.48.0@sha256:1bb043c7f27598de1e5a632b54ccff45a05aac420005298f3b50c4ec4cbf1f96
