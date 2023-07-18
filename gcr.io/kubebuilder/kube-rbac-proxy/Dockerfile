@@ -1,1 +1,1 @@
-From gcr.io/kubebuilder/kube-rbac-proxy:v0.13.1
+FROM gcr.io/kubebuilder/kube-rbac-proxy:v0.13.1
