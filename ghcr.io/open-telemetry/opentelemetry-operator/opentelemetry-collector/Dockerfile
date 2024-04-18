@@ -1,1 +1,1 @@
-FROM ghcr.io/open-telemetry/opentelemetry-collector-releases/opentelemetry-collector:0.80.0
+FROM ghcr.io/open-telemetry/opentelemetry-collector-releases/opentelemetry-collector:0.81.0
