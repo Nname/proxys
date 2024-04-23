@@ -1,1 +1,1 @@
-FROM ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-java:1.32.1
+FROM ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-java:1.26.0
