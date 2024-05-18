@@ -1,1 +1,1 @@
-FROM ghcr.io/open-telemetry/opentelemetry-go-instrumentation/autoinstrumentation-go:v0.10.1-alpha
+FROM docker pull otel/autoinstrumentation-go:v0.12.0-alpha
