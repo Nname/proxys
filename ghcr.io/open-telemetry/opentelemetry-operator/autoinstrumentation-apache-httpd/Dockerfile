@@ -3,13 +3,11 @@
 ############################
 FROM alpine:latest as agent
 
-ARG version
-
 RUN mkdir /opt/opentelemetry
 WORKDIR /opt/opentelemetry
 
 RUN mkdir agent
-RUN wget -c https://github.com/open-telemetry/opentelemetry-cpp-contrib/releases/download/webserver%2Fv$version/opentelemetry-webserver-sdk-x64-linux.tgz
+RUN wget -c https://github.com/open-telemetry/opentelemetry-cpp-contrib/releases/download/webserver%2Fv1.1.0/opentelemetry-webserver-sdk-x64-linux.tgz
 # RUN unzip -p opentelemetry-webserver-sdk-x64-linux.tgz | tar -zx -C agent
 RUN tar -xzf opentelemetry-webserver-sdk-x64-linux.tgz -C agent
 
